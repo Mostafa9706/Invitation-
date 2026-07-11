@@ -281,7 +281,7 @@
   <!-- HERO -->
   <div class="hero">
     <div class="bismillah">بسم الله الرحمن الرحيم</div>
-    <div class="badge">دعوة قراءة الفاتحة</div>
+    <div class="badge">دعوة قراءة الفاتحة والخطوبة</div>
     <p class="name">Mostafa</p>
     <p class="amp">&</p>
     <p class="name">Menna</p>
@@ -316,10 +316,10 @@
     </p>
     <p>
       بقلوب مؤمنة بقضاء الله وقدره، وبكل الحب والامتنان، ندعوكم لمشاركتنا
-      فرحتنا بقراءة الفاتحة، سائلين الله أن يبارك لنا هذه البداية.
+      فرحتنا بقراءة الفاتحة والاحتفال بخطوبتنا، سائلين الله أن يبارك لنا هذه البداية.
       <br><br>
       With hearts full of faith and gratitude, we invite you to join us
-      as we recite Al-Fatiha, asking God to bless this new beginning.
+      as we recite Al-Fatiha and celebrate our engagement, asking God to bless this new beginning.
     </p>
     <div class="signature">Mostafa &amp; Menna</div>
   </div>
@@ -406,14 +406,14 @@
   function saveDate(){
     const start = "20260723T191500";
     const end = "20260723T221500";
-    const details = encodeURIComponent("قراءة الفاتحة - Mostafa & Menna");
-    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Mostafa & Menna - قراءة الفاتحة")}&dates=${start}/${end}&details=${details}`;
+    const details = encodeURIComponent("قراءة الفاتحة والخطوبة - Mostafa & Menna");
+    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent("Mostafa & Menna - قراءة الفاتحة والخطوبة")}&dates=${start}/${end}&details=${details}`;
     window.open(url, "_blank");
   }
 
   function shareInvite(){
     if(navigator.share){
-      navigator.share({title:"Mostafa & Menna", text:"دعوة قراءة الفاتحة - مصطفى ومنة", url: location.href});
+      navigator.share({title:"Mostafa & Menna", text:"دعوة قراءة الفاتحة والخطوبة - مصطفى ومنة", url: location.href});
     } else {
       navigator.clipboard.writeText(location.href);
       alert("تم نسخ الرابط");
